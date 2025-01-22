@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+}
+header{
+  background-color: violet;
+  height: 4rem;
+}
+ul{
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+ul li{
+  list-style: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.box{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.btn{
+  border-color: rgb(62, 61, 61);
+  color: black;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  margin-left: 7rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
