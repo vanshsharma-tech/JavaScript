@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  height: 3rem;
+}
+ul{
+  height: 3rem;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  background-color: black;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.box{
+  border: 2px solid black;
+  height: 190px;
+  width: 100px;
+  
+}
+
+#img{
+  height: 80px;
+  width: 100px;
+
+}
